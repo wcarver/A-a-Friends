@@ -1,1 +1,48 @@
 /* PHASE 5: Cats */
+.content-header {
+  height: 200px;
+  background-image: url('../cats.jpg');
+  background-size: cover;
+  width: 100%;
+  display: block;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 15px black; 
+  font-weight: lighter;
+  text-align: center;
+}
+
+.img-up {
+  background-color: transparent;
+  height: 66%;
+}
+.img-down {
+  background-color: transparent;
+  height: 34%;
+
+}
+
+.img-left {
+  display: inline;
+  background-color: transparent;
+  width: 75%;
+}
+.img-right {
+  font-size: 15px;
+  color: black;
+  display: inline;
+  background-color: transparent;
+  width: 25%;
+
+}
+
+.img-right input {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+  background-color: #eee;
+}
