@@ -1,4 +1,11 @@
 /* PHASE 1: Header */
+.hidden .menu {
+  display: none;
+}
+
+.hidden:hover .menu {
+  display:block;
+}
 header ul {
   display: inline-flex;;
   float: right;
@@ -7,6 +14,7 @@ header ul {
 
 header a {
   display: inline-flex;
+  background-color: red;
   float: left;
   padding: 10px 20px;
   border-left: 1px solid white;
@@ -17,8 +25,40 @@ header a:hover {
   background-color: black;
 }
 
+header a:hover .badge {
+  background: red;
+}
+
 header .logo {
   font-weight: bold;
+}
+
+header ul li {
+  position: relative;
+}
+
+header .menu {
+  position: absolute;
+  top: 39px;
+  left: 0px;
+  color: black;
+  display: block;
+  width: 240px;
+  background-color: transparent;
+}
+
+
+
+header .menu li:hover {
+  background-color: #eee;
+}
+
+header .menu li {
+  text-align: center;
+  margin: 2px;
+  padding: 7px;
+  background-color: white;
+  font-size: 15px;
 }
 
 nav {
@@ -36,3 +76,30 @@ header {
   background-color: red;
   color: white;
 }
+
+.badge {
+  position:relative;
+
+}
+
+.badge[data-badge]:after {
+  margin-left: 5px;
+  content:attr(data-badge);
+  font-size:.7em;
+  background:black;
+  color:white;
+  border-radius:50%;
+}
+
+/*.badge[data-badge]:after {
+  margin-left: 5px;
+  content:attr(data-badge);
+  font-size:.7em;
+  background:black;
+  color:white;
+  width:18px;height:18px;
+  text-align:center;
+  line-height:18px;
+  border-radius:50%;
+  box-shadow:0 0 1px #333;
+}*/

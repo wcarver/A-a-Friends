@@ -10,6 +10,7 @@ span, article, footer, time, small {
   text-decoration: none;
   color: inherit;
   font-family: 'Roboto', sans-serif;
+  background-color: #eee;
 }
 
 ul {
