@@ -4,8 +4,10 @@
 }
 
 .hidden:hover .menu {
-  display:block;
+  display: block;
 }
+
+
 header ul {
   display: inline-flex;;
   float: right;
@@ -39,12 +41,12 @@ header ul li {
 
 header .menu {
   position: absolute;
-  top: 39px;
+  top: 38px;
   left: 0px;
   color: black;
   display: block;
   width: 240px;
-  background-color: transparent;
+  background-color: #ccc;
 }
 
 
@@ -55,15 +57,16 @@ header .menu li:hover {
 
 header .menu li {
   text-align: center;
-  margin: 2px;
+  margin: 1px;
   padding: 7px;
   background-color: white;
   font-size: 15px;
 }
 
 nav {
-  width: 70%;
+  width: 62%;
   margin: auto;
+  font-size: 18px;
 }
 
 .cf:after {
@@ -73,8 +76,9 @@ nav {
 }
 
 header {
-  background-color: red;
+  background-color: #f00;
   color: white;
+  z-index: 1;
 }
 
 .badge {

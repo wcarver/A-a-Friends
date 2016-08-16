@@ -1,1 +1,34 @@
 /* PHASE 4: Footer */
+
+.footer {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 62%;
+  margin: auto;
+
+  display: flex;
+}
+
+.footer ul {
+  float: right;
+  margin: 20px;
+}
+
+.footer li {
+  display: inline;
+  color: #aaa;
+  font-size: 15px;
+  width: 100%;
+  margin: 12px;
+}
+
+.footer .logo {
+  font-size: 15px;
+  color: #aaa;
+  float: left;
+  margin: 20px;
+}
+
+.footer-nav {
+  width: 100%;
+}

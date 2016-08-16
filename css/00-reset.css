@@ -10,7 +10,8 @@ span, article, footer, time, small {
   text-decoration: none;
   color: inherit;
   font-family: 'Roboto', sans-serif;
-  background-color: #eee;
+  background-color: inherit;
+  font-size: inherit;
 }
 
 ul {
@@ -21,6 +22,11 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+
+body {
+  background-color: #eee;
 }
 
 input[type="password"],
