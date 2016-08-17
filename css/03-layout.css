@@ -11,15 +11,15 @@
 
 
 .content-flex {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
   width: 100%;
 }
 
 .content-sidebar {
   display: inline;
   float: left;
-  width: 33%;
+  width: 265px;
   min-height: 300px;
   padding: 10px;
   background-color: white;
@@ -30,7 +30,7 @@
 .content-main {
   float: right;
   display: inline;
-  width: 66%;
+  width: 100%;
   min-height: 300px;
   padding: 10px;
   background-color: white;
