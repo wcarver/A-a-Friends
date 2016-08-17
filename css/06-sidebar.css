@@ -1,7 +1,7 @@
 /* PHASE 6: Sidebar */
 .profile-picture {
   position: relative;
-  margin-top: -145px;
+  margin-top: -120px;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -18,18 +18,24 @@
 
 }
 
+.online p {
+  text-align: center;
+}
+
 .online {
   position: absolute;
-  top: 20px;
-  right: 90px;
-  background-color: #00ff22;
+  text-align: center;
+
+  top: 22px;
+  left: -40px;
+  background-color: #0c0;
   color: white;
   padding: 3px 40px;
   border: 1px solid black;
   font-weight: bold;
   -webkit-transform: rotate(-45deg);
   letter-spacing: 2px;
-  font-size: 12x;
+  font-size: 12px;
 }
 
 .bio {

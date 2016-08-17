@@ -14,13 +14,17 @@ header ul {
 
 }
 
+header li:nth-child(3) a {
+  border-right: 1px solid white;
+}
+
 header a {
   display: inline-flex;
   background-color: red;
   float: left;
   padding: 10px 20px;
   border-left: 1px solid white;
-  border-right: 1px solid white;
+
 }
 
 header a:hover {
@@ -32,6 +36,9 @@ header a:hover .badge {
 }
 
 header .logo {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+
   font-weight: bold;
 }
 
